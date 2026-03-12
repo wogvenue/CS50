@@ -1,1 +1,1 @@
-CS50 derslerini izlerken yaptığım projelerdir.
+CS50 derslerini izlerken yaptığım projelerdir. Ödevler de buna dahildir. Yapış sıralamam dosya isimlerinin başına yazılan numaralardan belli olmaktadır.
