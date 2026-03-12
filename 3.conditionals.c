@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void) {
+    int x = get_int("x = ");
+    int y = get_int("y = ");
+    if (x < y) {
+        printf("x is less than y.\n");
+    }
+    else if (x == y) {
+        printf("x is equal to y.\n");
+    }
+    else {
+        printf("x is greater than y.\n");
+    }
+}
+
+//if'ten sonraki parantezin içinde boolian expression bulunur. ==, <, >, <=, >=
+//dizayndaki mükemmellik = kısalık. kodun: doğru, kısa ve okunaklı olması lazım.

@@ -1,0 +1,9 @@
+types:
+0. void: hiçbir değer döndürmez.
+1. bool: true-false (1 byte - 2 bit)
+2. char: single chracters (1 byte - 2 bit) = %c
+3. string: multiple chracters (değişir) = %s
+4. integer: tamsayılar (4 byte - 32 bit) = %i
+5. long: uzun tamsayılar (8 byte - 64 bit) = %li
+6. float: ondalıklı sayılar (4 byte - 32 bit) = %f
+7. double: uzun ondalıklı sayılar (8 byte - 64 bit)
