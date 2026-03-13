@@ -82,3 +82,5 @@ float kac5k(float paraustu) {
 float kac1k(float paraustu) {
     return paraustu / 0.01;
 }
+
+//Sevdim cursor'u. Hem de sadece text editörü olarak kullanmak için çok rahat.
