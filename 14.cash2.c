@@ -42,7 +42,8 @@ int main(void) {
     paraustu = paraustu - besk * 0.05;
     int birk = kac1k(paraustu);
     paraustu = paraustu - birk * 0.01;
-    printf("\nVerilecek toplam para parçası sayısı: %i\n", ikiyuz + yuz + elli + yirmi + on + bes + bir + ellik + yirmibesk + onk + besk + birk);
+    int toplam = ikiyuz + yuz + elli + yirmi + on + bes + bir + ellik + yirmibesk + onk + besk + birk;
+    printf("\nVerilecek toplam para parçası sayısı: %i\n", toplam);
     printf("\nVerilecek para parçası türleri:\n\n%i x 200 lira\n%i x 100 lira\n%i x 50 lira\n%i x 20 lira\n%i x 10 lira\n%i x 5 lira\n%i x 1 lira\n%i x 50 kuruş\n%i x 25 kuruş\n%i x 10 kuruş\n%i x 5 kuruş\n%i x 1 kuruş.\n", ikiyuz, yuz, elli, yirmi, on, bes, bir, ellik, yirmibesk, onk, besk, birk);
 }
 int kac200(float paraustu) {
